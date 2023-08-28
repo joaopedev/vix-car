@@ -9,9 +9,9 @@ export const Favorites: React.FC = () => {
   const { favorites, loadFavorites } = useAuth();
   const favoriteCars = Cars.filter((car) => favorites.includes(car.id));
 
-  useEffect(() => {
-    loadFavorites();
-  }, []);
+  // useEffect(() => {
+  //   loadFavorites();
+  // }, []);
 
   return (
     <AuthProvider>

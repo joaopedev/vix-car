@@ -131,6 +131,5 @@ export const Cars = [
       image: 'https://bit.ly/444jIP7',
       description: 'Lorem ipsum dolor sit amet...',
       features: ['Feature 1', 'Feature 2'],
-    },
-    
+    }, 
   ];

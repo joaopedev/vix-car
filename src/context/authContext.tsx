@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useState, ReactNode, useEffect } from 'react';
 
 interface AuthContextType {
   isAuthenticated: boolean;
@@ -30,6 +30,14 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     const storedFavorites = localStorage.getItem('favorites');
     return storedFavorites ? JSON.parse(storedFavorites) : [];
   });
+
+  useEffect(() => {
+    console.log("teste")
+    if(favorites){
+      saveFavoritesToLocalStorage(favorites)
+    }
+    loadFavorites();
+  }, []);
 
   const login = (email: string, password: string) => {
     const mockUser = {

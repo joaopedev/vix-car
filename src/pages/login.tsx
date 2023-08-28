@@ -19,7 +19,7 @@ export const Login: React.FC = () => {
               <Box w="100%">
                 <Heading mb="4">Login</Heading>
                 <AuthProvider>
-                <LoginForm />
+                  <LoginForm />
                 </AuthProvider>
               </Box>
             </Center>

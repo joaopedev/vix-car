@@ -1,6 +1,6 @@
-# Teste Vix - Projeto React
+# Projeto React
 
-Este projeto é parte do processo de seleção da empresa Vix. Ele é um aplicativo React que utiliza diversas bibliotecas para fornecer uma experiência interativa e amigável aos usuários.
+Este projeto foi um teste recebido que decidi ampliar e aplicar meus conhecimentos em React Typescript. Ele é um aplicativo React que utiliza diversas bibliotecas para fornecer uma experiência interativa e amigável aos usuários.
 
 ## Bibliotecas Utilizadas
 
